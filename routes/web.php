@@ -17,3 +17,5 @@ Route::get('/', function () {
 });
 
 Route::get('admin','Admin\IndexController@test');
+Route::get('admin/lihao','Admin\IndexController@lihao');
+Route::get('admin/articleDetails','Admin\ManageController@articleDetails');
